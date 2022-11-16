@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcClientConsole.Protos";
+
+package heroes;
+
+// The greeting service definition.
+service Hero {
+	// get hero response
+	rpc GetHeroByID (HeroRequest) returns (HeroResponse);
+	rpc GetHeroes (HeroesRequest) returns (stream HeroResponse);
+}
+
+// The request message containing hero Id
+message HeroRequest {
+	int64 heroId = 1;
+}
+message HeroesRequest {
+
+}
+// The response message Hero
+message HeroResponse {
+	int64 Id = 1;
+	string Name = 2;
+	string Slug = 3;
+}
