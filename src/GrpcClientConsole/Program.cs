@@ -4,8 +4,6 @@ using Grpc.Net.Client;
 using Grpc.Net.Client.Configuration;
 using GrpcClientConsole.Protos;
 
-Console.WriteLine("Hello, World!");
-
 try
 {
 	var data = new HeroRequest { HeroId = 13 };
@@ -47,6 +45,5 @@ try
 }
 catch (RpcException ex)
 {
-
-	throw;
+	Console.WriteLine(ex.Message);
 }
