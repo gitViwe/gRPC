@@ -19,12 +19,14 @@ public class HeroData
         var filePath = Path.Combine(_environment.WebRootPath, HERO_JSON_FILE);
         var jsonString = await File.ReadAllTextAsync(filePath, token);
         var output = JsonSerializer.Deserialize<IEnumerable<SuperHeroResponse>>(jsonString);
-        return output.Select(x => new HeroResponse()
-        {
-            Id= x.Id,
-            Name= x.Name,
-            Slug= x.Slug,
-        }) ?? Array.Empty<HeroResponse>();
+        return output is not null
+            ? output.Select(x => new HeroResponse()
+            {
+                Id= x.Id,
+                Name= x.Name,
+                Slug= x.Slug,
+            })
+            : Array.Empty<HeroResponse>();
     }
 
     public async Task<HeroResponse?> GetByIdAsync(long Id, CancellationToken token)
