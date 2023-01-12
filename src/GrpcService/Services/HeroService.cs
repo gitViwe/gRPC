@@ -26,6 +26,17 @@ public class HeroService : Hero.HeroBase
         var heroes = await _data.GetEnumerableAsync(context.CancellationToken);
         foreach (var hero in heroes)
         {
+            await Task.Delay(1000);
+            await responseStream.WriteAsync(hero);
+        }
+    }
+
+    public override async Task GetAll(HeroesRequestProto request, IServerStreamWriter<SuperHeroResponseProto> responseStream, ServerCallContext context)
+    {
+        var heroes = await _data.GetProtoEnumerableAsync(context.CancellationToken);
+        foreach (var hero in heroes)
+        {
+            await Task.Delay(1000);
             await responseStream.WriteAsync(hero);
         }
     }

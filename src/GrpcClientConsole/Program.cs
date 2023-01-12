@@ -42,6 +42,15 @@ try
 		}
 	}
 	Console.ReadLine();
+
+    using (var clientData = client.GetAll(new HeroesRequestProto()))
+    {
+        while (await clientData.ResponseStream.MoveNext(CancellationToken.None))
+        {
+            Console.WriteLine(clientData.ResponseStream.Current);
+        }
+    }
+    Console.ReadLine();
 }
 catch (RpcException ex)
 {

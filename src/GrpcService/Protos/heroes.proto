@@ -9,6 +9,7 @@ service Hero {
 	// get hero response
 	rpc GetHeroByID (HeroRequest) returns (HeroResponse);
 	rpc GetHeroes (HeroesRequest) returns (stream HeroResponse);
+	rpc GetAll (HeroesRequestProto) returns (stream SuperHeroResponseProto);
 }
 
 // The request message containing hero Id
@@ -18,9 +19,62 @@ message HeroRequest {
 message HeroesRequest {
 
 }
+message HeroesRequestProto {
+
+}
 // The response message Hero
 message HeroResponse {
 	int64 Id = 1;
 	string Name = 2;
 	string Slug = 3;
+}
+message SuperHeroResponseProto {
+   int64 Id = 1;
+   string Name = 2;
+   string Slug = 3;
+   PowerstatsProto Powerstats = 4;
+   AppearanceProto Appearance = 5;
+   BiographyProto Biography = 6;
+   WorkProto Work = 7;
+   ConnectionsProto Connections = 8;
+   ImagesProto Images = 9;
+}
+message AppearanceProto {
+   string Gender = 1;
+   string Race = 2;
+   repeated string Height = 3;
+   repeated string Weight = 4;
+   string EyeColor = 5;
+   string HairColor = 6;
+}
+message BiographyProto {
+   string FullName = 1;
+   string AlterEgos = 2;
+   repeated string Aliases = 3;
+   string PlaceOfBirth = 4;
+   string FirstAppearance = 5;
+   string Publisher = 6;
+   string Alignment = 7;
+}
+message ConnectionsProto {
+   string GroupAffiliation = 1;
+   string Relatives = 2;
+}
+message PowerstatsProto {
+   int64 Intelligence = 1;
+   int64 Strength = 2;
+   int64 Speed = 3;
+   int64 Durability = 4;
+   int64 Power = 5;
+   int64 Combat = 6;
+}
+message WorkProto {
+   string Occupation = 1;
+   string Base = 2;
+}
+message ImagesProto {
+	string Xs = 1;
+	string Sm = 2;
+	string Md = 3;
+	string Lg = 4;
 }

@@ -29,6 +29,16 @@ public class HeroData
             : Array.Empty<HeroResponse>();
     }
 
+    public async Task<IEnumerable<SuperHeroResponseProto>> GetProtoEnumerableAsync(CancellationToken token)
+    {
+        var filePath = Path.Combine(_environment.WebRootPath, HERO_JSON_FILE);
+        var jsonString = await File.ReadAllTextAsync(filePath, token);
+        var output = JsonSerializer.Deserialize<IEnumerable<SuperHeroResponse>>(jsonString);
+        return output is not null
+            ? output.Select(x => Mapping.ToSuperHeroResponseProto(x))
+            : Array.Empty<SuperHeroResponseProto>();
+    }
+
     public async Task<HeroResponse?> GetByIdAsync(long Id, CancellationToken token)
     {
         var heroes = await GetEnumerableAsync(token);
