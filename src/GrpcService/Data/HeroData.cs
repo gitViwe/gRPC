@@ -35,7 +35,7 @@ public class HeroData
         var jsonString = await File.ReadAllTextAsync(filePath, token);
         var output = JsonSerializer.Deserialize<IEnumerable<SuperHeroResponse>>(jsonString);
         return output is not null
-            ? output.Select(x => Mapping.ToSuperHeroResponseProto(x))
+            ? output.Select(x => x.ToSuperHeroResponseProto())
             : Array.Empty<SuperHeroResponseProto>();
     }
 
