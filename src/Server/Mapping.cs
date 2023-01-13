@@ -1,10 +1,11 @@
-﻿using GrpcService.Protos;
+﻿using Shared.Model;
+using Shared.Protos;
 
-namespace GrpcService.Model
+namespace Server
 {
-    public static class Mapping
+    internal static class Mapping
     {
-        public static SuperHeroResponseProto ToSuperHeroResponseProto(this SuperHeroResponse response)
+        internal static SuperHeroResponseProto ToSuperHeroResponseProto(SuperHeroResponse response)
         {
             var protoResponse = new SuperHeroResponseProto()
             {
@@ -25,7 +26,7 @@ namespace GrpcService.Model
                     EyeColor = response.Appearance.EyeColor,
                     Gender = response.Appearance.Gender,
                     HairColor = response.Appearance.HairColor,
-                    Race = response.Appearance.Race,
+                    Race = response.Appearance.Race ?? string.Empty,
                 },
                 Biography = new()
                 {

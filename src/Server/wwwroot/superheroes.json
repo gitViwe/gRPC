@@ -333,7 +333,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -494,7 +494,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'3",
         "191 cm"
@@ -546,7 +546,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'2",
         "188 cm"
@@ -652,7 +652,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'11",
         "180 cm"
@@ -972,7 +972,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'0",
         "183 cm"
@@ -1081,7 +1081,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'4",
         "163 cm"
@@ -1185,7 +1185,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'11",
         "180 cm"
@@ -1516,7 +1516,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -1785,7 +1785,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'8",
         "173 cm"
@@ -1889,7 +1889,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'1",
         "185 cm"
@@ -1944,7 +1944,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'5",
         "165 cm"
@@ -1996,7 +1996,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'4",
         "163 cm"
@@ -2159,7 +2159,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -2532,7 +2532,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'5",
         "165 cm"
@@ -2690,7 +2690,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -2906,7 +2906,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'6",
         "198 cm"
@@ -3125,7 +3125,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -3177,7 +3177,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'7",
         "201 cm"
@@ -3345,7 +3345,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -3397,7 +3397,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'5",
         "165 cm"
@@ -3553,7 +3553,7 @@
     },
     "appearance": {
       "gender": "-",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -3709,7 +3709,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'3",
         "191 cm"
@@ -4083,7 +4083,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'1",
         "185 cm"
@@ -4135,7 +4135,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'7",
         "170 cm"
@@ -4413,7 +4413,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'1",
         "185 cm"
@@ -4575,7 +4575,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -4679,7 +4679,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'9",
         "175 cm"
@@ -4731,7 +4731,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'10",
         "178 cm"
@@ -5053,7 +5053,7 @@
     },
     "appearance": {
       "gender": "-",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -5158,7 +5158,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'7",
         "170 cm"
@@ -5542,7 +5542,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'9",
         "175 cm"
@@ -5646,7 +5646,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'0",
         "183 cm"
@@ -6406,7 +6406,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -6467,7 +6467,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'11",
         "180 cm"
@@ -6629,7 +6629,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'10",
         "178 cm"
@@ -6649,7 +6649,7 @@
       ],
       "placeOfBirth": "Ryan, Oklahoma, United States",
       "firstAppearance": "-",
-      "publisher": null,
+      "publisher": "",
       "alignment": "good"
     },
     "work": {
@@ -6735,7 +6735,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -6788,7 +6788,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "7'5",
         "226 cm"
@@ -7281,7 +7281,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 kg"
@@ -7333,7 +7333,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -7505,7 +7505,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -8252,7 +8252,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'2",
         "188 cm"
@@ -8356,7 +8356,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -8846,7 +8846,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'5",
         "196 cm"
@@ -8900,7 +8900,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'1",
         "185 cm"
@@ -9062,7 +9062,7 @@
     },
     "appearance": {
       "gender": "-",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -9270,7 +9270,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -9322,7 +9322,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'1",
         "185 cm"
@@ -9374,7 +9374,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'10'",
         "178 cm"
@@ -9500,7 +9500,7 @@
       ],
       "placeOfBirth": "Madison, Wisconsin, United States of America",
       "firstAppearance": "-",
-      "publisher": null,
+      "publisher": "",
       "alignment": "good"
     },
     "work": {
@@ -9796,7 +9796,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -9900,7 +9900,7 @@
     },
     "appearance": {
       "gender": "-",
-      "race": null,
+      "race": "",
       "height": [
         "5'9",
         "175 cm"
@@ -10004,7 +10004,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'5'",
         "165 cm"
@@ -10058,7 +10058,7 @@
     },
     "appearance": {
       "gender": "-",
-      "race": null,
+      "race": "",
       "height": [
         "6'4'",
         "193 cm"
@@ -10164,7 +10164,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -10486,7 +10486,7 @@
     },
     "appearance": {
       "gender": "-",
-      "race": null,
+      "race": "",
       "height": [
         "6'",
         "183 cm"
@@ -10595,7 +10595,7 @@
     },
     "appearance": {
       "gender": "-",
-      "race": null,
+      "race": "",
       "height": [
         "6'2'",
         "188 cm"
@@ -10647,7 +10647,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "6'11",
         "211 cm"
@@ -11018,7 +11018,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "205",
         "62.5 meters"
@@ -11124,7 +11124,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -11237,7 +11237,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -11621,7 +11621,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'10",
         "178 cm"
@@ -12107,7 +12107,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'1",
         "185 cm"
@@ -12269,7 +12269,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'9",
         "175 cm"
@@ -12648,7 +12648,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -12817,7 +12817,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'11",
         "180 cm"
@@ -12979,7 +12979,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'2",
         "188 cm"
@@ -13517,7 +13517,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -13569,7 +13569,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -13903,7 +13903,7 @@
       ],
       "placeOfBirth": "-",
       "firstAppearance": "-",
-      "publisher": null,
+      "publisher": "",
       "alignment": "good"
     },
     "work": {
@@ -14040,7 +14040,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -14200,7 +14200,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -14252,7 +14252,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -14356,7 +14356,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'0",
         "183 cm"
@@ -14469,7 +14469,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'5",
         "165 cm"
@@ -14788,7 +14788,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'3",
         "191 cm"
@@ -15488,7 +15488,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -15508,7 +15508,7 @@
       ],
       "placeOfBirth": "-",
       "firstAppearance": "As Pitcher-Man in 1954",
-      "publisher": null,
+      "publisher": "",
       "alignment": "good"
     },
     "work": {
@@ -15859,7 +15859,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'10",
         "178 cm"
@@ -15911,7 +15911,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -16133,7 +16133,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'5",
         "165 cm"
@@ -16185,7 +16185,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'1",
         "155 cm"
@@ -16238,7 +16238,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'3",
         "191 cm"
@@ -16290,7 +16290,7 @@
     },
     "appearance": {
       "gender": "-",
-      "race": null,
+      "race": "",
       "height": [
         "6'6",
         "198 cm"
@@ -16780,7 +16780,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'11",
         "180 cm"
@@ -16836,7 +16836,7 @@
     },
     "appearance": {
       "gender": "-",
-      "race": null,
+      "race": "",
       "height": [
         "6'",
         "183 cm"
@@ -16945,7 +16945,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -16997,7 +16997,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'0",
         "183 cm"
@@ -17153,7 +17153,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "7'0",
         "213 cm"
@@ -17205,7 +17205,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'2'",
         "188 cm"
@@ -17425,7 +17425,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'7'",
         "170 cm"
@@ -17536,7 +17536,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -17589,7 +17589,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -17641,7 +17641,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'4",
         "193 cm"
@@ -17694,7 +17694,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'11",
         "180 cm"
@@ -17747,7 +17747,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -17852,7 +17852,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'5",
         "165 cm"
@@ -17909,7 +17909,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'6",
         "198 cm"
@@ -18082,7 +18082,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'1",
         "185 cm"
@@ -18134,7 +18134,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -18241,7 +18241,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'",
         "183 cm"
@@ -18294,7 +18294,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'2",
         "188 cm"
@@ -18348,7 +18348,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -18400,7 +18400,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'10",
         "178 cm"
@@ -18890,7 +18890,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'5",
         "196 cm"
@@ -18942,7 +18942,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -19051,7 +19051,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'11",
         "180 cm"
@@ -19104,7 +19104,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'2",
         "188 cm"
@@ -19156,7 +19156,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'9",
         "175 cm"
@@ -19314,7 +19314,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'8",
         "173 cm"
@@ -19366,7 +19366,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'11'",
         "180 cm"
@@ -19588,7 +19588,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'11",
         "180 cm"
@@ -19642,7 +19642,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -19906,7 +19906,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'9'",
         "175 cm"
@@ -20019,7 +20019,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -20124,7 +20124,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'11",
         "180 cm"
@@ -20346,7 +20346,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -20614,7 +20614,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -20874,7 +20874,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -21083,7 +21083,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -21638,7 +21638,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'10",
         "178 cm"
@@ -21848,7 +21848,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'4",
         "163 cm"
@@ -22025,7 +22025,7 @@
       ],
       "placeOfBirth": "Bowie, Arizona",
       "firstAppearance": "First Blood (Novel, 1972)",
-      "publisher": null,
+      "publisher": "",
       "alignment": "good"
     },
     "work": {
@@ -22378,7 +22378,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -22486,7 +22486,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'2",
         "188 cm"
@@ -22707,7 +22707,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'1",
         "185 cm"
@@ -22759,7 +22759,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -23198,7 +23198,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'8",
         "173 cm"
@@ -23422,7 +23422,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'7'",
         "170 cm"
@@ -23528,7 +23528,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "10'",
         "305 cm"
@@ -23639,7 +23639,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -23906,7 +23906,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -24119,7 +24119,7 @@
     },
     "appearance": {
       "gender": "-",
-      "race": null,
+      "race": "",
       "height": [
         "6'1",
         "185 cm"
@@ -24338,7 +24338,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'3",
         "191 cm"
@@ -24547,7 +24547,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'8",
         "173 cm"
@@ -24758,7 +24758,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'2",
         "157 cm"
@@ -24972,7 +24972,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -25024,7 +25024,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'6",
         "198 cm"
@@ -25081,7 +25081,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'10'",
         "178 cm"
@@ -25133,7 +25133,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -25237,7 +25237,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'5",
         "165 cm"
@@ -25734,7 +25734,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'8",
         "173 cm"
@@ -25943,7 +25943,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -26158,7 +26158,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'7",
         "201 cm"
@@ -26211,7 +26211,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -26486,7 +26486,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'7",
         "170 cm"
@@ -26820,7 +26820,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -26876,7 +26876,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'11",
         "180 cm"
@@ -27189,7 +27189,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'4",
         "163 cm"
@@ -27296,7 +27296,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -27316,7 +27316,7 @@
       ],
       "placeOfBirth": "-",
       "firstAppearance": "The Cape S01E01 (2011)",
-      "publisher": null,
+      "publisher": "",
       "alignment": "good"
     },
     "work": {
@@ -27572,7 +27572,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'1",
         "185 cm"
@@ -27624,7 +27624,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'6",
         "198 cm"
@@ -27676,7 +27676,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "7'2",
         "218 cm"
@@ -27780,7 +27780,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'10",
         "178 cm"
@@ -27833,7 +27833,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'4",
         "163 cm"
@@ -28049,7 +28049,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -28155,7 +28155,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'0",
         "183 cm"
@@ -28207,7 +28207,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "5'6",
         "168 cm"
@@ -28373,7 +28373,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'5",
         "165 cm"
@@ -28541,7 +28541,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'9",
         "175 cm"
@@ -29117,7 +29117,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'2'",
         "188 cm"
@@ -29170,7 +29170,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'8",
         "173 cm"
@@ -29326,7 +29326,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -29431,7 +29431,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "-",
         "0 cm"
@@ -29539,7 +29539,7 @@
     },
     "appearance": {
       "gender": "Female",
-      "race": null,
+      "race": "",
       "height": [
         "12'",
         "366 cm"
@@ -29711,7 +29711,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'2",
         "188 cm"
@@ -29821,7 +29821,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'5'",
         "196 cm"
@@ -29930,7 +29930,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "5'9",
         "175 cm"
@@ -30242,7 +30242,7 @@
     },
     "appearance": {
       "gender": "Male",
-      "race": null,
+      "race": "",
       "height": [
         "6'1",
         "185 cm"
