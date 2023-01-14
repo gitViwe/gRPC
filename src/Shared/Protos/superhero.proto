@@ -1,33 +1,24 @@
 syntax = "proto3";
 
-option csharp_namespace = "GrpcService.Protos";
+option csharp_namespace = "Shared.Protos";
 
-package heroes;
+package superhero;
 
-// The greeting service definition.
-service Hero {
-	// get hero response
-	rpc GetHeroByID (HeroRequest) returns (HeroResponse);
-	rpc GetHeroes (HeroesRequest) returns (stream HeroResponse);
-	rpc GetAll (HeroesRequestProto) returns (stream SuperHeroResponseProto);
+// the superhero service definition.
+service SuperHero {
+	// the remote procedure calls available
+	rpc GetById (SuperHeroByIdRequestProto) returns (SuperHeroResponseProto);
+	rpc Get (SuperHeroRequestProto) returns (stream SuperHeroResponseProto);
 }
 
-// The request message containing hero Id
-message HeroRequest {
-	int64 heroId = 1;
-}
-message HeroesRequest {
-
-}
-message HeroesRequestProto {
-
-}
-// The response message Hero
-message HeroResponse {
+// the request message definition
+message SuperHeroByIdRequestProto {
 	int64 Id = 1;
-	string Name = 2;
-	string Slug = 3;
 }
+// the request message definition
+message SuperHeroRequestProto {}
+
+// the response message definition
 message SuperHeroResponseProto {
    int64 Id = 1;
    string Name = 2;

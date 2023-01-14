@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace GrpcService.Model;
+namespace Shared.Model;
 
 public class SuperHeroResponse
 {
