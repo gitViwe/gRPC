@@ -3,10 +3,10 @@ using Client.Extension;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("This is a gRPC demo client console!");
 
 using IHost host = Host.CreateDefaultBuilder(args)
-    .ConfigureServices(services =>
+    .ConfigureServices((context, services) =>
     {
         services.RegisterGrpcClient();
         services.AddSingleton<SuperHeroClientService>();

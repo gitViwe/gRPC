@@ -11,7 +11,7 @@ internal static class ServiceCollectionExtension
     {
         return services.AddGrpcClient<SuperHero.SuperHeroClient>(options =>
         {
-            options.Address = new Uri("https://localhost:7098");
+            options.Address = new Uri("http://localhost:5007");
         })
         .ConfigureChannel(options =>
         {

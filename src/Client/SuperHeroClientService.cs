@@ -27,6 +27,9 @@ internal class SuperHeroClientService
     {
         var response = _client.GetById(request);
         Console.WriteLine(response);
+        Console.WriteLine("============================");
+        Console.WriteLine("Up next we will stream data, press any key to continue!");
+        Console.WriteLine("============================");
         Console.ReadLine();
     }
 }
