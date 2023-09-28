@@ -17,7 +17,7 @@ internal class SuperHeroClientService
         {
             while (await response.ResponseStream.MoveNext(CancellationToken.None))
             {
-                Console.WriteLine(response.ResponseStream.Current);
+                Console.WriteLine(response.ResponseStream.Current.Name);
             }
         }
         Console.ReadLine();

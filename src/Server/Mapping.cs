@@ -1,67 +1,66 @@
 ﻿using Shared.Model;
 using Shared.Protos;
 
-namespace Server
+namespace Server;
+
+internal static class Mapping
 {
-    internal static class Mapping
+    internal static SuperHeroResponseProto ToSuperHeroResponseProto(SuperHeroResponse response)
     {
-        internal static SuperHeroResponseProto ToSuperHeroResponseProto(SuperHeroResponse response)
+        var protoResponse = new SuperHeroResponseProto()
         {
-            var protoResponse = new SuperHeroResponseProto()
+            Id = response.Id,
+            Name = response.Name,
+            Slug = response.Slug,
+            Powerstats = new()
             {
-                Id = response.Id,
-                Name = response.Name,
-                Slug = response.Slug,
-                Powerstats = new()
-                {
-                    Combat = response.Powerstats.Combat,
-                    Durability = response.Powerstats.Durability,
-                    Intelligence = response.Powerstats.Intelligence,
-                    Power = response.Powerstats.Power,
-                    Speed = response.Powerstats.Speed,
-                    Strength = response.Powerstats.Strength,
-                },
-                Appearance = new()
-                {
-                    EyeColor = response.Appearance.EyeColor,
-                    Gender = response.Appearance.Gender,
-                    HairColor = response.Appearance.HairColor,
-                    Race = response.Appearance.Race ?? string.Empty,
-                },
-                Biography = new()
-                {
-                    Alignment = response.Biography.Alignment,
-                    AlterEgos = response.Biography.AlterEgos,
-                    FirstAppearance = response.Biography.FirstAppearance,
-                    FullName = response.Biography.FullName,
-                    PlaceOfBirth = response.Biography.PlaceOfBirth,
-                    Publisher = response.Biography.Publisher,
-                },
-                Connections = new()
-                {
-                    GroupAffiliation = response.Connections.GroupAffiliation,
-                    Relatives = response.Connections.Relatives,
-                },
-                Images = new()
-                {
-                    Lg = response.Images.Lg.OriginalString,
-                    Md = response.Images.Md.OriginalString,
-                    Sm = response.Images.Sm.OriginalString,
-                    Xs = response.Images.Xs.OriginalString,
-                },
-                Work = new()
-                {
-                    Base = response.Work.Base,
-                    Occupation = response.Work.Occupation,
-                }
-            };
+                Combat = response.Powerstats.Combat,
+                Durability = response.Powerstats.Durability,
+                Intelligence = response.Powerstats.Intelligence,
+                Power = response.Powerstats.Power,
+                Speed = response.Powerstats.Speed,
+                Strength = response.Powerstats.Strength,
+            },
+            Appearance = new()
+            {
+                EyeColor = response.Appearance.EyeColor,
+                Gender = response.Appearance.Gender,
+                HairColor = response.Appearance.HairColor,
+                Race = response.Appearance.Race,
+            },
+            Biography = new()
+            {
+                Alignment = response.Biography.Alignment,
+                AlterEgos = response.Biography.AlterEgos,
+                FirstAppearance = response.Biography.FirstAppearance,
+                FullName = response.Biography.FullName,
+                PlaceOfBirth = response.Biography.PlaceOfBirth,
+                Publisher = response.Biography.Publisher,
+            },
+            Connections = new()
+            {
+                GroupAffiliation = response.Connections.GroupAffiliation,
+                Relatives = response.Connections.Relatives,
+            },
+            Images = new()
+            {
+                Lg = response.Images.Lg.OriginalString,
+                Md = response.Images.Md.OriginalString,
+                Sm = response.Images.Sm.OriginalString,
+                Xs = response.Images.Xs.OriginalString,
+            },
+            Work = new()
+            {
+                Base = response.Work.Base,
+                Occupation = response.Work.Occupation,
+            }
+        };
 
-            protoResponse.Appearance.Height.Add(response.Appearance.Height);
-            protoResponse.Appearance.Weight.Add(response.Appearance.Weight);
+        protoResponse.Appearance.Height.Add(response.Appearance.Height);
+        protoResponse.Appearance.Weight.Add(response.Appearance.Weight);
 
-            protoResponse.Biography.Aliases.Add(response.Biography.Aliases);
+        protoResponse.Biography.Aliases.Add(response.Biography.Aliases);
 
-            return protoResponse;
-        }
+        return protoResponse;
     }
 }
