@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+option csharp_namespace = "Shared.Protos";
+
+package background_event;
+
+// The service definitions.
+service BackgroundEventgRPC {
+	// the remote procedure calls available
+	rpc GetBackgroundEvents (BackgroundEventRequest) returns (BackgroundEventProto);
+    rpc NotifyOfEvent (BackgroundEventProto) returns (BackgroundEventResponse);
+}
+
+message BackgroundEventRequest { }
+
+message BackgroundEventResponse { }
+
+// The JSON representation for `BackgroundEventProto` is JSON object.
+message BackgroundEventProto {
+    // Unordered map of string values.
+    map<string, string> Headers = 1;
+
+    // Unordered map of dynamically typed values.
+    map<string, Value> Data = 2;
+}
+
+// `Value` represents a dynamically typed value which can be either
+// null, a number, a string, a boolean, a recursive struct value, or a
+// HubBlogUserProfileCreatedEventDataProto. A producer of value is expected to set one of these
+// variants. Absence of any variant indicates an error.
+//
+// The JSON representation for `Value` is JSON value.
+message Value {
+    // The kind of value.
+    oneof kind {
+        // Represents a null value.
+        NullValue null_value = 1;
+        // Represents a double value.
+        double number_value = 2;
+        // Represents a string value.
+        string string_value = 3;
+        // Represents a boolean value.
+        bool bool_value = 4;
+        // Represents a HubBlogUserProfileCreatedEventDataProto value.
+        HubBlogUserProfileCreatedEventDataProto user_profile_created_event = 5;
+    }
+}
+
+// `NullValue` is a singleton enumeration to represent the null value for the
+// `Value` type union.
+//
+// The JSON representation for `NullValue` is JSON `null`.
+enum NullValue {
+    // Null value.
+    NULL_VALUE = 0;
+}
+
+// The JSON representation for `HubBlogUserProfileCreatedEventDataProto` is JSON object.
+message HubBlogUserProfileCreatedEventDataProto {
+    string HubIdentityUserId = 1;
+    string HubBlogUserProfileId = 2;
+}

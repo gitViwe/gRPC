@@ -7,7 +7,8 @@ using ProtobufGenerator.Model;
 
 ContextFinder finder = new ContextFinder();
 //var types = finder.GetAllTypesInContextDbSets(Assembly.GetEntryAssembly());
-var types = new List<Type>() { typeof(SuperHeroResponse), typeof(Appearance), typeof(Biography), typeof(Connections), /*typeof(Images),*/ typeof(Powerstats), typeof(Work) };
+var types = new List<Type>() { typeof(BackgroundEvent), typeof(HubBlogUserProfileCreatedEventData) };
+//var types = new List<Type>() { typeof(SuperHeroResponse), typeof(Appearance), typeof(Biography), typeof(Connections), /*typeof(Images),*/ typeof(Powerstats), typeof(Work) };
 
 ClassGenerator generator = new ClassGenerator();
 var protoTypes = types.Select(x => generator.CreateType(x));
